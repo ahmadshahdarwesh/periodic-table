@@ -10,6 +10,13 @@ td {
   border-radius: 10%;
   border: 2px gray solid;
 }
+td:empty {
+  border: none;
+}
+td:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
 tr:nth-child(1) :nth-child(1) {
   background-color: yellow;
 }
