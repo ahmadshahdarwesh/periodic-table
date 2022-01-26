@@ -19,7 +19,7 @@ tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(1) {
 tr:nth-child(n + 2):nth-child(-n + 7) :nth-child(2) {
   background-color: burlywood;
 }
-tr:nth-child(n + 1):nth-child(-n + 7) :nth-child(18) {
+tr:nth-child(n + 1):nth-child(-n + 6) :nth-child(18) {
   background-color: plum;
 }
 tr:nth-child(n + 2):nth-child(-n + 6) :nth-child(17) {
@@ -31,6 +31,49 @@ tr:nth-child(n + 3):nth-child(-n + 7) :nth-child(13) {
 tr:nth-child(n + 5):nth-child(-n + 7) :nth-child(14) {
   background-color: pink;
 }
+tr:nth-child(6) :nth-child(15) {
+  background-color: pink;
+}
+tr:nth-child(6) :nth-child(3) {
+  background-color: skyblue;
+}
+tr:nth-child(7) :nth-child(3) {
+  background-color: darkcyan;
+}
+tr:nth-child(7) :nth-child(15) {
+  background-color: goldenrod;
+}
+tr:nth-child(7) :nth-child(16) {
+  background-color: plum;
+}
+tr:nth-child(7) :nth-child(17) {
+  background-color: blueviolet;
+}
+tr:nth-child(7) :nth-child(18) {
+  background-color: burlywood;
+}
+tr:nth-child(n + 3):nth-child(-n + 4) :nth-child(14) {
+  background-color: rgb(212, 135, 99);
+}
+tr:nth-child(n + 4):nth-child(-n + 5) :nth-child(15) {
+  background-color: rgb(212, 135, 99);
+}
+tr:nth-child(n + 5):nth-child(-n + 6) :nth-child(16) {
+  background-color: rgb(212, 135, 99);
+}
+tr:nth-child(2) :nth-child(14) {
+  background-color: yellow;
+}
+tr:nth-child(n + 2):nth-child(-n + 4) :nth-child(16) {
+  background-color: yellow;
+}
+tr:nth-child(n + 2):nth-child(-n + 3) :nth-child(15) {
+  background-color: yellow;
+}
+tr:nth-child(2) :nth-child(13) {
+  background-color: rgb(212, 135, 99);
+}
+
 tr:nth-child(5) :nth-child(n + 3):nth-child(-n + 12) {
   background-color: green;
 }
