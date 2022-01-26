@@ -1,0 +1,18 @@
+table {
+  width: 90vw;
+  height: 90vh;
+  margin: 10vh auto;
+}
+td {
+  text-align: center;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 10%;
+  border: 2px gray solid;
+}
+tr:nth-child(1) :nth-child(1) {
+  background-color: yellow;
+}
+tr:nth-child(1) :nth-child(18):nth-child() {
+  background-color: violet;
+}
