@@ -1,1 +1,2 @@
-#periodic-table
+#Periodic-table
+![Periodic Table](./img/periodictable.png).
