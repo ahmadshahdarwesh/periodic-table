@@ -1,7 +1,14 @@
+@media only screen and (max-width: 600px) {
+  table {
+    border: 2px solid coral;
+  }
+}
 @media only screen and (min-width: 768px) {
   table {
     background-color: chartreuse;
-    background-image: url(../img/img2.jpeg);
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-style: italic;
   }
 }
