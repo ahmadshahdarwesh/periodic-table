@@ -5,10 +5,17 @@
 }
 @media only screen and (min-width: 768px) {
   table {
-    background-color: chartreuse;
     background-image: url(../img/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-style: italic;
+  }
+}
+@media only screen and (min-width: 992px) {
+  table {
+    background-color: rgb(201, 132, 214);
+    background-image: none;
+    color: cornsilk;
     font-style: italic;
   }
 }
